@@ -1,8 +1,8 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import Roadmap from '../views/Roadmap.vue'
 // import Roadmap from '../views/Roadmap.vue'
-// import Team from '../views/Team.vue'
+import Team from '../views/Team.vue'
 // import Tokenomics from '../views/Tokenomics.vue'
 // import Whitepaper from '../views/Whitepaper.vue'
 
@@ -15,7 +15,9 @@ const routes = [
   {
     path: '/Roadmap',
     name: 'Roadmap',
-    component: Roadmap
+     
+    component: Roadmap 
+
   },
   // {
   //   path: '/roadmap',
@@ -24,12 +26,12 @@ const routes = [
   //   component: Roadmap
   //   },
  
-  // {
-  //   path: '/team',
-  //   name: 'Team',
+  {
+    path: '/Team',
+    name: 'Team',
     
-  //   component: Team  
-  //   },
+    component: Team  
+    },
   // {
   //   path: '/tokenomics',
   //   name: 'Tokenomics',
@@ -45,8 +47,8 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHashHistory(),
-  routes
+  history: createWebHistory(),
+  routes,
 })
 
 export default router
