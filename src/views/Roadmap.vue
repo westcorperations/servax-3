@@ -24,8 +24,10 @@
             <div class="overlay-content">
               <router-link :to="{ name: 'Home' }" class="
                 
-              ">Home</router-link>
-              <a href="team.html">Team</a>
+              ">Team</router-link>
+             <router-link :to="{ name: 'Team' }" class="
+                
+              ">Roadmap</router-link>
               <router-link :to="{ name: 'Roadmap' }" class="
                 
               ">Roadmap</router-link>
@@ -58,7 +60,10 @@
                
               ">Home</router-link>
             </li>
-            <li><span class="mx-3">02</span><a href="team.html"> Team</a></li>
+            <li><span class="mx-3">02</span>
+            <router-link :to="{ name: 'Team' }" class="
+               
+              ">Team</router-link></li>
             <li>
               <span class="mx-3">03</span> <router-link
               :to="{ name: 'Roadmap' }"
