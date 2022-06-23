@@ -492,7 +492,7 @@ font-style: normal;
 font-weight: 800;
 font-size:large;
 line-height: 24px;
-width: 108px;
+width: 105px;
 height: 24px;
 color: #FCFCFC;
  
