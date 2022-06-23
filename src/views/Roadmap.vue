@@ -454,7 +454,7 @@ margin: 10px auto 10px auto;
 /* ffont-family: 'Monument Extended'; */
 font-style: normal;
 font-weight: 800;
-font-size: 20px;
+font-size:large;
 line-height: 24px;
 height:24px; 
 width:108px;
@@ -490,7 +490,7 @@ color: #FCFCFC;
 /* ffont-family: 'Monument Extended'; */
 font-style: normal;
 font-weight: 800;
-font-size: 20px;
+font-size:large;
 line-height: 24px;
 width: 108px;
 height: 24px;
@@ -656,7 +656,7 @@ color: #FCFCFC;
  
  .overlay {
    /* Height & width depends on how you want to reveal the overlay (see JS below) */
-   height: 30%;
+   height: 50%;
    width: 0;
    position: fixed;
    /* Stay in place */
