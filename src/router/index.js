@@ -3,7 +3,7 @@ import Home from '../views/Home.vue'
 import Roadmap from '../views/Roadmap.vue'
 // import Roadmap from '../views/Roadmap.vue'
 import Team from '../views/Team.vue'
-// import Tokenomics from '../views/Tokenomics.vue'
+import Tokenomics from '../views/Tokenomics.vue'
 // import Whitepaper from '../views/Whitepaper.vue'
 
 const routes = [
@@ -19,12 +19,7 @@ const routes = [
     component: Roadmap 
 
   },
-  // {
-  //   path: '/roadmap',
-  //   name: 'Roadmap',
-    
-  //   component: Roadmap
-  //   },
+  
  
   {
     path: '/Team',
@@ -32,12 +27,12 @@ const routes = [
     
     component: Team  
     },
-  // {
-  //   path: '/tokenomics',
-  //   name: 'Tokenomics',
+  {
+    path: '/Tokenomics',
+    name: 'Tokenomics',
     
-  //   component: Tokenomics
-  //   },
+    component: Tokenomics
+    },
   // {
   //   path: '/Whitepaper',
   //   name: 'Whitepaper', 

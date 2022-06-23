@@ -53,27 +53,35 @@
             <div class="list-container d-none d-lg-block">
                 <div class="list d-none d-lg-block">
                     <ol>
-                        <li>
-                            <span class="mx-3">01</span>
-                            <router-link :to="{ name: 'Home' }" class="
+                         <li>
+              <span class="mx-3">01</span>
+              <router-link :to="{ name: 'Home' }" class="
                
               ">Home</router-link>
-                        </li>
-                        <li><span class="mx-3">02</span>
-                            <router-link :to="{ name: 'Team' }" class="
+            </li>
+            <li><span class="mx-3">02</span>
+            <router-link :to="{ name: 'Team' }" class="
                
-              ">Team</router-link>
-                        </li>
-                        <li>
-                            <span class="mx-3">03</span>
-                            <router-link :to="{ name: 'Roadmap' }" class="
+              ">Team</router-link></li>
+            <li>
+              <span class="mx-3">03</span> <router-link
+              :to="{ name: 'Roadmap' }"
+              class="
                
-              ">Roadmap</router-link>
-                        </li>
-                        <li>
-                            <span class="mx-3">04</span><a href="tokenomics.html"> Tokenomics</a>
-                        </li>
-                        <li>
+              "
+              >Roadmap</router-link
+            >
+            </li>
+            <li>
+              <span class="mx-3">04</span><router-link
+              :to="{ name: 'Tokenomics' }"
+              class="
+               
+              "
+              >Tokenomics</router-link
+            >
+            </li>
+           <li>
                             <span class="mx-3">05</span><a href="whitepaper.html"> white paper</a>
                         </li>
                     </ol>
@@ -87,7 +95,7 @@
 
 <div class="body">
     <section class="section1  ">
-        <div class="con container-fluid ">
+        <div class="con container ">
 
             <div class="wrap ">
                 <div class="sec1 m-4  ">

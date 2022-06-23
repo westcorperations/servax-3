@@ -31,7 +31,9 @@
               <router-link :to="{ name: 'Roadmap' }" class="
                 
               ">Roadmap</router-link>
-              <a href="tokenomics.html">Tokenomics</a>
+              <router-link :to="{ name: 'Tokenomics' }" class="
+                
+              ">Tokenomics</router-link>
               <a href="whitepaper.html">White Paper</a>
             </div>
           </div>
@@ -75,7 +77,13 @@
             >
             </li>
             <li>
-              <span class="mx-3">04</span><a href="tokenomics.html"> Tokenomics</a>
+              <span class="mx-3">04</span><router-link
+              :to="{ name: 'Tokenomics' }"
+              class="
+               
+              "
+              >Tokenomics</router-link
+            >
             </li>
             <li>
               <span class="mx-3">05</span><a href="whitepaper.html"> white paper</a>
@@ -130,7 +138,7 @@ export default {
   },
 };
 </script>
- <style scoped>
+ <style>
  header {
    max-width: 100vw !important;
    height: 100vh;
