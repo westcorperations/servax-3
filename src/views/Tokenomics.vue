@@ -157,3 +157,53 @@ export default {
 }
 </script>
 
+<style scoped>
+
+.roadmap-topbox {
+
+    z-index: 9;
+    background: #0E0E0E;
+    position:relative;
+    width: 900px;
+    height: 400px;
+    /* border-radius: 20px; */
+    
+    /* padding: 20px; */
+    margin: -180px auto 0px auto;
+
+    
+
+}
+ .roadmap-topbox .wrapper{
+   
+    /* align-items:center; */
+   
+    padding:50px;
+ }
+ .roadmap-topbox h3{ 
+/* color:white;  */
+/* ffont-family: 'Monument Extended'; */
+font-style: normal;
+font-weight: 800;
+font-size: xx-large;
+line-height: 64px;
+height:64px;
+color: #FCFCFC;
+ padding-left: 37px;
+    font-family: "Monument Extended";
+
+
+ }
+ .roadmap-topbox  ul{
+    /* list-style-type: none; */
+   
+   margin:0px 40px;
+    height:100px;
+    color: white;
+    font-family: "DM Sans";
+
+
+ }
+
+
+</style>

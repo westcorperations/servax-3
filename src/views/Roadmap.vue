@@ -289,6 +289,7 @@ color: #FCFCFC;
     height: 400px;
 margin: 20px auto 20px auto;
 
+
 }
 .roadmap-box-sm{
  background: #0E0E0E;
@@ -318,7 +319,6 @@ height:64px;
 color: #FCFCFC;
  padding-left: 37px;
     font-family: "Monument Extended";
-
 
  }
  .roadmap-box  ul{
