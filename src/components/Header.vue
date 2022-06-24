@@ -34,7 +34,9 @@
               <router-link :to="{ name: 'Tokenomics' }" class="
                 
               ">Tokenomics</router-link>
-              <a href="whitepaper.html">White Paper</a>
+              <router-link :to="{ name: 'Whitepaper' }" class="
+                
+              ">Whitepaper</router-link>
             </div>
           </div>
         </div>
@@ -86,8 +88,15 @@
             >
             </li>
             <li>
-              <span class="mx-3">05</span><a href="whitepaper.html"> white paper</a>
+              <span class="mx-3">04</span><router-link
+              :to="{ name: 'Whitepaper' }"
+              class="
+               
+              "
+              >Whitepaper</router-link
+            >
             </li>
+           
           </ol>
         </div>
       </div>

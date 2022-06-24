@@ -35,7 +35,7 @@
               <a href="whitepaper.html">White Paper</a>
             </div>
           </div>
-        </div>
+         </div>
 
 
         <!-- planet icon/logo image -->
@@ -110,7 +110,9 @@
 
  
 </div>
-</div> 
+</div>
+
+
 </template>
 
 

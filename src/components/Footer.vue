@@ -18,27 +18,37 @@
 
 
 
-<footer> 
-<div class="row  container footer"> 
-   <!-- <div class="col-md-12 col-lg-2 mt-col-"><h6>ServaX</h6></div> -->
-    <div class="col-md-12 col-lg-5  text-center">
-        <a href="index.html" class="px-2">Home</a>
-        <a href="team.html" class="px-2">Team</a>
-        <a href="roadmap.html" class="px-2">Roadmap</a>
-        <a href="tokenomics.html" class="px-2">Tekenomics</a>
-     </div>
-      <div class="col-lg-5 col-md-12 text-center"> 
-       <img src="../assets/img/twitter-icon.svg" alt="" class="px-3">
-       <img src="../assets/img/linkin-icon.svg" alt="" class="px-3">
-       <img src="../assets/img/instagram-icon.svg" alt="" class="px-3">
-    </div>
-     
-</div>
-     
-     
-     
-</footer>
+<footer>
+      <div class="  footer">
+         
+        <div class=" d-none d-lg-block  "><img src="../assets/img/logo.svg" alt="" /></div>
+        <!-- <div class="col-md-12 col-lg-2 mt-col-"><h6>ServaX</h6></div> -->
+        <div class=" d-none d-lg-block">
+           <router-link :to="{ name: 'Home' }" class="a
+                
+              ">Team</router-link>
+                <router-link :to="{ name: 'Team' }" class="a
+                
+              ">Roadmap</router-link>
+                <router-link :to="{ name: 'Roadmap' }" class="a
+                
+              ">Roadmap</router-link>
+                <router-link :to="{ name: 'Tokenomics' }" class="a 
+                
+              ">Tokenomics</router-link>
+                <a href="mailto:customercare@servax.io" class="a">Contact</a>
+        </div>
+        <div class=" text-center">
+         <a href="https://t.me/ServaX_Officalgroup" target="_blank"> <img src="../assets/img/telegram-black.svg" alt="px-2" class="px-3 " style="width:50px; height:50px;"></a>
+          <a href="https://twitter.com/ServaX_live" target="_blank" > <img src="../assets/img/twitter-icon.svg" alt="px-2" class="px-3 w-15"></a>
+         <a href="https://" target="_blank"> <img src="../assets/img/instagram-icon.svg" alt="px-2" class="px-2 w-15"></a>
+        </div>
 
+      </div>
+
+
+
+    </footer>
      
 
 </template>
@@ -112,37 +122,40 @@ footer {
     max-width: 100%;
 }
 
+
+ 
 .footer {
-    /* padding: 10px;    */
-}
+  padding: 10px;   
+   display: flex;
+  justify-content:space-evenly;
+  flex-direction: row !important;
+ width:100%; 
+ /* background:red; */
+ padding-top:300px;
+}  
 
 .footer h6 {
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 32px;
-    /* padding-left: 10px;  */
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 32px;
+  /* padding-left: 10px;  */
 
 }
 
-.footer a {
-    font-family: 'DM Sans';
-     font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 21px;
-    text-decoration: none;
-    color: #0E0E0E !important;
-    /* padding-left: 10px;  */
+.footer .a {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #0E0E0E !important;
+  /* padding-left: 10px;  */
 }
 
-.footer img {
-    /* margin: 10px; */
-}
 
- 
- 
 
 
 

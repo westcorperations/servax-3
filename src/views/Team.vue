@@ -1,90 +1,127 @@
 <template>
     <header>
-        <div class="d-none d-lg-block p-3"><img src="../assets/img/logo.svg" alt="" /></div>
-        <div class="wrapper">
-            <div class="text-container">
-                <!-- navigation bar setion -->
-                <div class="navigation-bar p-2 d-lg-none">
-                    <!-- Logo -->
-                    <div class=""><img src="../assets/img/logo.svg" alt="" /></div>
-                    <!-- navbar icon  -->
-                    <div class="">
-                        <span class="">
-                            <div class="" :class="{ change: normal }" @click.prevent="toggle(x)">
-                                <div class="bar1"></div>
-                                <div class="bar2"></div>
-                                <div class="bar3"></div>
-                            </div>
-                        </span>
-                    </div>
+        <div class="d-block d-lg-none">
+            <div class="navigation-bar p-4">
+                <div class=""><img src="../assets/img/logo.svg" alt="" /></div>
+                <div class="">
+                    <span class="">
+                        <div class="" :class="{ change: normal }" @click.prevent="toggle(x)">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                        </div>
+                    </span>
+                </div>
+            </div>
 
-                    <!-- nav bar links mobile -->
-                    <div id="myNav" class="overlay" :style="{ width: width + '%' }">
-                        <!-- Overlay content -->
-                        <div class="overlay-content">
-                            <router-link :to="{ name: 'Home' }" class="
+            <div id="myNav" class="overlay" :style="{ width: width + '%' }">
+                <!-- Overlay content -->
+                <div class="overlay-content">
+                    <router-link :to="{ name: 'Home' }" class="
                 
               ">Home</router-link>
-                            <a href="team.html">Team</a>
-                            <router-link :to="{ name: 'Roadmap' }" class="
+                    <router-link :to="{ name: 'Team' }" class="
+                
+              ">Team</router-link>
+                    <router-link :to="{ name: 'Roadmap' }" class="
                 
               ">Roadmap</router-link>
-                            <a href="tokenomics.html">Tokenomics</a>
-                            <a href="whitepaper.html">White Paper</a>
+                    <router-link :to="{ name: 'Tokenomics' }" class="
+                
+              ">Tokenomics</router-link>
+                    <a href="whitepaper.html">White Paper</a>
+                </div>
+            </div>
+            <div class="text">
+               <h3>Meet the ServaX Team</h3> 
+                <p class="">But while you’re here, signup for our newsletter, so you’ll get
+                            notified when our roadmap is made public.</p>
+
+            </div>
+
+        </div>
+        <div class="d-none d-lg-block">
+            <div class="d-none d-lg-block p-4"><img src="../assets/img/logo.svg" alt="" /></div>
+            <div class="wrapper">
+                <div class="text-container">
+                    <!-- navigation bar setion -->
+                    <div class="navigation-bar p-4 d-lg-none">
+                        <!-- Logo -->
+                        <div class=""><img src="../assets/img/logo.svg" alt="" /></div>
+                        <!-- navbar icon  -->
+                        <div class="">
+                            <span class="">
+                                <div class="" :class="{ change: normal }" @click.prevent="toggle(x)">
+                                    <div class="bar1"></div>
+                                    <div class="bar2"></div>
+                                    <div class="bar3"></div>
+                                </div>
+                            </span>
+                        </div>
+
+                        <!-- nav bar links mobile -->
+                        <div id="myNav" class="overlay" :style="{ width: width + '%' }">
+                            <!-- Overlay content -->
+                            <div class="overlay-content">
+                                <router-link :to="{ name: 'Home' }" class="
+                
+              ">Home</router-link>
+                                <a href="team.html">Team</a>
+                                <router-link :to="{ name: 'Roadmap' }" class="
+                
+              ">Roadmap</router-link>
+                                <a href="tokenomics.html">Tokenomics</a>
+                                <a href="whitepaper.html">White Paper</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- planet icon/logo image -->
+                    <div class="planet">
+                        <img src="../assets/img/planet.svg" alt="" class="d-none" />
+                    </div>
+                    <!-- header text  -->
+                    <div class="text">
+                        <h3>Meet the ServaX Team</h3>
+                        <p class="">
+                            The master team of value-driven techies, focused on bringing value and utility to the social media and communication space..</p>
+                        <div>
+
                         </div>
                     </div>
                 </div>
-
-
-                <!-- planet icon/logo image -->
-                <div class="planet">
-                    <img src="../assets/img/planet.svg" alt="" class="d-none" />
-                </div>
-                <!-- header text  -->
-                <div class="text">
-                    <h3>Meet the ServaX Team</h3>
-                    <p class="">But while you’re here, signup for our newsletter, so you’ll get
-                        notified when our roadmap is made public.</p>
-                    <div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="list-container d-none d-lg-block">
-                <div class="list d-none d-lg-block">
-                    <ol>
-                         <li>
-              <span class="mx-3">01</span>
-              <router-link :to="{ name: 'Home' }" class="
+                <div class="list-container d-none d-lg-block">
+                    <div class="list d-none d-lg-block">
+                        <ol>
+                            <li>
+                                <span class="mx-3">01</span>
+                                <router-link :to="{ name: 'Home' }" class="
                
               ">Home</router-link>
-            </li>
-            <li><span class="mx-3">02</span>
-            <router-link :to="{ name: 'Team' }" class="
+                            </li>
+                            <li><span class="mx-3">02</span>
+                                <router-link :to="{ name: 'Team' }" class="
                
-              ">Team</router-link></li>
-            <li>
-              <span class="mx-3">03</span> <router-link
-              :to="{ name: 'Roadmap' }"
-              class="
+              ">Team</router-link>
+                            </li>
+                            <li>
+                                <span class="mx-3">03</span>
+                                <router-link :to="{ name: 'Roadmap' }" class="
                
-              "
-              >Roadmap</router-link
-            >
-            </li>
-            <li>
-              <span class="mx-3">04</span><router-link
-              :to="{ name: 'Tokenomics' }"
-              class="
+              ">Roadmap</router-link>
+                            </li>
+                            <li>
+                                <span class="mx-3">04</span>
+                                <router-link :to="{ name: 'Tokenomics' }" class="
                
-              "
-              >Tokenomics</router-link
-            >
-            </li>
-           <li>
-                            <span class="mx-3">05</span><a href="whitepaper.html"> white paper</a>
-                        </li>
-                    </ol>
+              ">Tokenomics</router-link>
+                            </li>
+                            <li>
+                                <span class="mx-3">05</span><a href="whitepaper.html"> white paper</a>
+                            </li>
+                        </ol>
+                    </div>
                 </div>
             </div>
         </div>
@@ -93,91 +130,103 @@
 
 
 
-<div class="body">
-    <section class="section1  ">
-        <div class="con container ">
+    <div class="body">
+        <section class="section1  ">
+            <div class="con container ">
 
-            <div class="wrap ">
-                <div class="sec1 m-4  ">
-                    <div class="box6 mb-4">
-                        <img src="../assets/img/avatar2.svg" alt="" srcset="">
+                <div class="wrap ">
+                    <div class="sec1 m-4  ">
+                        <div class="box6 mb-4">
+                            <img src="../assets/img/avatar2.svg" alt="" srcset="">
+                        </div>
+                        <div class="box5 ">
+                            <h4>Prince Peter Antai</h4>
+                            <small>CEO, Founder ServaX</small>
+                        </div>
                     </div>
-                    <div class="box5 ">
-                    <h4>Prince Peter Antai</h4>
-                    <small>CEO, Founder ServaX</small>
+                    <div class="sec2 m-4">
+                        <div class="box6 mb-4">
+                            <img src="../assets/img/avatar2.svg" alt="" srcset="">
+                        </div>
+                        <div class="box5">
+                            <h4>Harry Bright</h4>
+                            <small>COO,. Co-Founder ServaX</small>
+                        </div>
+                    </div>
+
+
                 </div>
-</div>
-                <div class="sec2 m-4">
-                    <div class="box6 mb-4">
-                        <img src="../assets/img/avatar2.svg" alt="" srcset="">
+                <div class="wrap ">
+                    <div class="sec1 m-4  ">
+                        <div class="box6 mb-4">
+                            <img src="../assets/img/avatar2.svg" alt="" srcset="">
+                        </div>
+                        <div class="box5 ">
+                            <h4>Victory</h4>
+                            <small>Designer</small>
+                        </div>
                     </div>
-                    <div class="box5">
-                        <h4>Harry Bright</h4>
-                        <small>COO,. Co-Founder ServaX</small>
+                    <div class="sec2 m-4">
+                        <div class="box6 mb-4">
+                            <img src="../assets/img/avatar2.svg" alt="" srcset="">
+                        </div>
+                        <div class="box5">
+                            <h4> Richard Ejike </h4>
+                            <small>Developer</small>
+                        </div>
                     </div>
+
+
                 </div>
+
+            </div>
+
+        </section>
+
+        <section class="newsletter">
+            <div class="text-center content p-5">
+                <h4>Signup for Our Newsletter</h4>
+                <p>Get updated about ServaX and the next wave in social media evolution!</p>
+
+                <input type="email" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                <button type="submit" class="btn btn-success mt-3">Subscribe</button>
 
 
             </div>
-            <div class="wrap ">
-                <div class="sec1 m-4  ">
-                    <div class="box6 mb-4">
-                        <img src="../assets/img/avatar2.svg" alt="" srcset="">
-                    </div>
-                    <div class="box5 ">
-                    <h4>Prince Peter Antai</h4>
-                    <small>CEO, Founder ServaX</small>
-                </div>
-</div>
-                <div class="sec2 m-4">
-                    <div class="box6 mb-4">
-                        <img src="../assets/img/avatar2.svg" alt="" srcset="">
-                    </div>
-                    <div class="box5">
-                        <h4>Harry Bright</h4>
-                        <small>COO,. Co-Founder ServaX</small>
-                    </div>
-                </div>
+        </section>
 
-
-            </div>
-
+         <footer>
+      <div class="  footer">
+         
+        <div class=" d-none d-lg-block  "><img src="../assets/img/logo.svg" alt="" /></div>
+        <!-- <div class="col-md-12 col-lg-2 mt-col-"><h6>ServaX</h6></div> -->
+        <div class=" d-none d-lg-block">
+           <router-link :to="{ name: 'Home' }" class="a
+                
+              ">Team</router-link>
+                <router-link :to="{ name: 'Team' }" class="a
+                
+              ">Roadmap</router-link>
+                <router-link :to="{ name: 'Roadmap' }" class="a
+                
+              ">Roadmap</router-link>
+                <router-link :to="{ name: 'Tokenomics' }" class="a 
+                
+              ">Tokenomics</router-link>
+                <a href="mailto:customercare@servax.io" class="a">Contact</a>
+        </div>
+        <div class=" text-center">
+         <a href="https://t.me/ServaX_Officalgroup" target="_blank"> <img src="../assets/img/telegram-black.svg" alt="px-2" class="px-3 " style="width:50px; height:50px;"></a>
+          <a href="https://twitter.com/ServaX_live" target="_blank" > <img src="../assets/img/twitter-icon.svg" alt="px-2" class="px-3 w-15"></a>
+         <a href="https://" target="_blank"> <img src="../assets/img/instagram-icon.svg" alt="px-2" class="px-2 w-15"></a>
         </div>
 
-    </section>
+      </div>
 
-<section class="newsletter">  
-        <div class="text-center content p-5" >
-<h4>Signup for Our Newsletter</h4> 
-<p>Get updated about ServaX and the next wave in social media evolution!</p>
- 
-   <input type="email"
-     class="form-control" name="" id="" aria-describedby="helpId" placeholder=""> 
-<button type="submit" class="btn btn-success mt-3">Subscribe</button>
-      
 
-</div>
-    </section>
-     
-<footer> 
-<div class="row  container footer"> 
-   <!-- <div class="col-md-12 col-lg-2 mt-col-"><h6>ServaX</h6></div> -->
-    <div class="col-md-12 col-lg-5  text-center d-none d-lg-block">
-        <a href="index.html" class="px-2">Home</a>
-        <a href="team.html" class="px-2">Team</a>
-        <a href="roadmap.html" class="px-2">Roadmap</a>
-        <a href="tokenomics.html" class="px-2">Tekenomics</a>
-     </div>
-      <div class="col-lg-5 col-md-12 text-center"> 
-       <img src="../assets/img/twitter-icon.svg" alt="" class="px-3">
-       <img src="../assets/img/linkin-icon.svg" alt="" class="px-3">
-       <img src="../assets/img/instagram-icon.svg" alt="" class="px-3">
+
+    </footer>
     </div>
-     
-</div>
-
-</footer>
-</div>
 
 </template>
 
@@ -261,7 +310,7 @@ header {
 }
 
 header .wrapper {
-    height: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: row;
 }
@@ -356,11 +405,11 @@ header .wrapper .list-container .list li {
 
 .overlay {
     /* Height & width depends on how you want to reveal the overlay (see JS below) */
-    height: 35%;
+    height: 100vh;
     width: 0;
     position: fixed;
     /* Stay in place */
-    z-index: 1;
+    z-index: 100 !important;
     /* Sit on top */
     left: 0;
     top: 0;
@@ -452,10 +501,7 @@ header .wrapper .list-container .list li {
 }
 
 footer {
-    display: flex;
-    align-items: flex-end;
-    /* flex-direction: row !important; */
-    justify-content: center;
+    
 
     /* ff 3.6+ */
     background: -moz-radial-gradient(ellipse at 72% 51%,
@@ -488,31 +534,38 @@ footer {
 }
 
 .footer {
-    /* padding: 10px;    */
-}
+  padding: 10px;   
+   display: flex;
+  justify-content:space-evenly;
+  flex-direction: row !important;
+ width:100%; 
+ /* background:red; */
+ padding-top:300px;
+}  
 
 .footer h6 {
-    font-family: "DM Sans";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 32px;
-    /* padding-left: 10px;  */
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 32px;
+  /* padding-left: 10px;  */
+
 }
 
-.footer a {
-    font-family: "DM Sans";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 21px;
-    text-decoration: none;
-    color: #0e0e0e !important;
-    /* padding-left: 10px;  */
+.footer .a {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #0E0E0E !important;
+  /* padding-left: 10px;  */
 }
 
 .footer img {
-    /* margin: 10px; */
+  /* margin: 10px; */
 }
 
 section .con {
@@ -563,8 +616,8 @@ section .wrapper2a p {
     color: #fcfcfc;
 }
 
-section .box5{
-   padding:20px;
+section .box5 {
+    padding: 20px;
 }
 
 section .box5 h4 {
@@ -661,52 +714,60 @@ section .box7 {
 
 @media only screen and (max-width: 800px) {
 
-   
-.wrap{
-    flex-direction:column;
-}
-section .box6 {
-    width: 300px;
-    height: 300px;
-    /* background: #0E0E0E; */
-}
 
-section .box6 img {
-    width: 300px;
-    height: 300px;
-    /* background: #0E0E0E; */
-    
-    /* margin:0 important;  */
-}
+    .wrap {
+        flex-direction: column;
+    }
 
-section .box5{
-    width:300px;
-    /* margin:10px; */
-    
+    section .box6 {
+        width: 300px;
+        height: 300px;
+        display:flex;
+        justify-content:center;
+     align-items:center;
+        background: #0E0E0E;
+    }
 
-    /* padding: 5px;  */
+    section .box6 img {
 
-}
-section .box5 h4 {
-   
-   
-    font-size: 13px;
-    line-height: 16px;
-    height: 16px;
-    padding: 14px;
-    color: #54ff8e;
-}
+        width: 60%;
+        height: 200px;
+        
+        /* background: #0E0E0E; */
 
-section .box5 small {
-    
-    font-size: 8px;
-    line-height:10px;
-    height: 10px;
-    padding: 16px;
-    /* identical to box height */
+        /* margin:0 important;  */
+    }
 
-    color: #ffffff;
-}
+    section .box5 {
+        width:100%;
+        height: 100px;
+        /* margin:10px; */
+
+
+        /* padding: 5px;  */
+
+    }
+
+    section .box5 h4 {
+
+
+        font-size: 13px;
+        line-height: 16px;
+        height: 16px;
+        padding: 14px;
+        color: #54ff8e;
+    }
+
+    section .box5 small {
+
+        font-size: 8px;
+        line-height: 10px;
+        height: 10px;
+        padding: 16px;
+        /* identical to box height */
+
+        color: #ffffff;
+    }
 
 
 
@@ -843,14 +904,46 @@ section .box5 small {
         transform: rotate(45deg) translate(-8px, -8px);
     }
 }
- 
- @media only screen and (max-width: 800px) { 
- .body{
-   
-background:radial-gradient(100% 239.5% at 0% 0%, #4789BE 0%, #000854 100%);
-}
+
+@media only screen and (max-width: 800px) {
+    .body {
+
+        background: radial-gradient(100% 239.5% at 0% 0%, #4789BE 0%, #000854 100%);
+    }
+ header .text  h3 {
+    padding: 40px 35px 2px 40px;
+    width: 100%;
+    /* font-size: 24px; */
+  width: 245px;
+height: 60px;
+font-family: 'Monument Extended';
+font-style: normal;
+font-weight: 800;
+font-size: 24.8824px;
+line-height: 30px;
+
+color: #FCFCFC;
+
+    line-height: normal;
+  }
+header .text  p {
+    padding:40px 35px 35px 40px;
+    max-width: 100%; 
+    width:222px;
+    height:42px;
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 14px;
+
+color:#fcfcfc; 
+
     
-.newsletter {
+  }
+  
+
+    .newsletter {
         /* position:relative; */
         max-width: 300px;
         height: 400;
@@ -865,27 +958,27 @@ background:radial-gradient(100% 239.5% at 0% 0%, #4789BE 0%, #000854 100%);
     }
 
     footer {
-background:radial-gradient(100% 239.5% at 0% 0%, #4789BE 0%, #000854 100%);
+        background: radial-gradient(100% 239.5% at 0% 0%, #4789BE 0%, #000854 100%);
 
     }
 
 
 
-  
-   
-    
+
+
+
 
 
     section .con {
-    margin: -100% auto 0px auto;
-    width: 100vw;
-    position: relative;
-padding: 10px 0px;
-    /* border-radius: 20px; */
-   
-}
-section
-    .newsletter {
+        margin: -100% auto 0px auto;
+        width: 100vw;
+        position: relative;
+        padding: 10px 0px;
+        /* border-radius: 20px; */
+
+    }
+
+    section .newsletter {
         /* position:relative; */
         max-width: 300px;
         height: 400;
@@ -901,6 +994,9 @@ section
 
     footer {
         background: radial-gradient(100% 239.5% at 0% 0%, #4789be 0%, #000854 100%);
+    }
+    footer  img{
+        color:#fcfcfc;
     }
 
     .section1 .box3 {
@@ -992,7 +1088,4 @@ section
         height: 20px;
     }
 }
-
-
-
 </style>
