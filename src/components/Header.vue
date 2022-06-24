@@ -48,7 +48,7 @@
         </div>
         <!-- header text  -->
         <div class="text">
-          <h3>{{ heading }}</h3>
+          <h3 class="h3">{{ heading }}</h3>
           <div>
             <p>
               {{ subheading }}
@@ -185,7 +185,7 @@ export default {
    background: linear-gradient(205deg,
        rgba(0, 8, 84, 1) 63%,
        rgba(52, 255, 142, 1) 100%);
- }
+    }
  
  header .wrapper {
    height: 100%;
@@ -221,7 +221,7 @@ export default {
    /* text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5); */
    margin: 12px auto;
  
-   width: 650px;
+   /* width: 650px; */
    /* height: fit-content; */
    font-family: "Monument Extended";
    font-style: normal;
@@ -354,8 +354,10 @@ export default {
  }
  
  @media only screen and (max-width: 800px) {
-   header {
-     /* height: 100vh; */
+   header .wrapper .text-container {
+     width:100% ;
+     font-size:20px;
+      
    }
  
    header .wrapper .text-container p {
@@ -403,7 +405,7 @@ export default {
    header .wrapper .text-container h3 {
      padding: 40px 35px 2px 40px;
      width: 100%;
-     font-size: larger;
+     font-size: 20px;
  
      line-height: normal;
    }

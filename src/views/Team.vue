@@ -87,7 +87,7 @@
                         <p class="">
                             The master team of value-driven techies, focused on bringing value and utility to the social media and communication space..</p>
                         <div>
-
+ 
                         </div>
                     </div>
                 </div>
@@ -132,7 +132,7 @@
 
     <div class="body">
         <section class="section1  ">
-            <div class="con container ">
+            <div class="con container-fluid ">
 
                 <div class="wrap ">
                     <div class="sec1 m-4  ">
@@ -142,7 +142,7 @@
                         <div class="box5 ">
                             <h4>Prince Peter Antai</h4>
                             <small>CEO, Founder ServaX</small>
-                        </div>
+w</div>
                     </div>
                     <div class="sec2 m-4">
                         <div class="box6 mb-4">
