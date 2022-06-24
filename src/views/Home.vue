@@ -29,7 +29,7 @@
   <section class="section2  container">
          <h4>THE SERVAX ECOSYSTEM</h4> 
          <!-- rectangle type 1 -->
-         <div class=" row" data-aos="zoom-left">
+         <div class=" row"  >
 
              <div class="col-lg-10 col-md-12  row rec1 ">
                  <div class="col-lg-6 col-md-12  ">
@@ -47,7 +47,7 @@
 
 
   <!-- rectangle type 2-->
-         <div class=" row" data-aos="zoom-right">
+         <div class=" row">
              <div class="col-lg-2 d-none d-lg-block p-0 m-0 space1">
 
              </div>
@@ -73,7 +73,7 @@
 
 
   <!-- rectangle type 1 -->
-         <div class=" row " data-aos="zoom-left">
+         <div class=" row " >
 
              <div class="col-lg-10 col-md-12 row rec1 ">
                  <div class="col-lg-6 col-md-12  ">
@@ -93,7 +93,7 @@
 
 
   <!-- rectangle type 2 -->
-         <div class=" row" data-aos="zoom-right">
+         <div class=" row" >
              <!-- space -->
              <div class="col-lg-2 d-none d-lg-block p-0 m-0 space1">
 
@@ -119,7 +119,7 @@
 
 
   <!-- rectangle type 1 -->
-         <div class=" row " data-aos="zoom-left">
+         <div class=" row " >
 
              <div class="col-lg-10 col-md-12 row rec1 ">
                  <div class="col-lg-6 col-md-12  ">
@@ -137,7 +137,7 @@
 
 
   <!-- rectangle type 2 -->
-         <div class=" row " data-aos="zoom-right">
+         <div class=" row " >
              <div class="col-lg-2 d-none d-lg-block p-0 m-0 space1">
 
              </div>
@@ -182,7 +182,7 @@
           
          <h4>UTILITIES</h4> 
 
-         <div class="row  align-items-center rec mt-5 justify-content-around  " data-aos="flip-right"> 
+         <div class="row  align-items-center rec mt-5 justify-content-around  "> 
             <div class="col-md-12  col-lg-4 d-lg-none">
                 <img src="../assets/img/ntfbox.svg" alt="" srcset="">
                             </div>
@@ -195,7 +195,7 @@
 <img src="../assets/img/ntfbox.svg" alt="" srcset="">
             </div>
          </div>   
-         <div class="row align-items-center rec mt-5 justify-content-around  " data-aos="flip-left"> 
+         <div class="row align-items-center rec mt-5 justify-content-around  " > 
             <div class="col-md-12  col-lg-4 d-lg-none">
                 <img src="../assets/img/belt.svg" alt="" srcset="">
                             </div>
@@ -208,7 +208,7 @@
 <img src="../assets/img/belt.svg" alt="" srcset="">
             </div>
          </div>  
-         <div class="row align-items-center rec mt-5 mb-6 justify-content-around  " data-aos="flip-right"> 
+         <div class="row align-items-center rec mt-5 mb-6 justify-content-around  "> 
             <div class="col-md-12  col-lg-4 d-lg-none">
                 <img src="../assets/img/disk.svg" alt="" srcset="">
                             </div>

@@ -4,7 +4,7 @@
     <div class="wrapper">
       <div class="text-container">
         <!-- navigation bar setion -->
-        <div class="navigation-bar p-2 d-lg-none">
+        <div class="navigation-bar p-4 d-lg-none">
           <!-- Logo -->
           <div class=""><img src="../assets/img/logo.svg" alt="" /></div>
           <!-- navbar icon  -->
@@ -24,10 +24,10 @@
             <div class="overlay-content">
              <router-link :to="{ name: 'Home' }" class="
                 
-              ">Team</router-link>
+              ">Home</router-link>
              <router-link :to="{ name: 'Team' }" class="
                 
-              ">Roadmap</router-link>
+              ">Team</router-link>
               <router-link :to="{ name: 'Roadmap' }" class="
                 
               ">Roadmap</router-link>
@@ -147,7 +147,7 @@ export default {
   },
 };
 </script>
- <style>
+ <style scoped>
  header {
    max-width: 100vw !important;
    height: 100vh;
@@ -283,7 +283,7 @@ export default {
  
  .overlay {
    /* Height & width depends on how you want to reveal the overlay (see JS below) */
-   height: 80%;
+   height: 100vh;
    width: 0;
    position: fixed;
    /* Stay in place */
@@ -353,7 +353,7 @@ export default {
    }
  }
  
- @media only screen and (max-width: 800px) {
+ @media screen and (max-width: 800px) {
    header .wrapper .text-container {
      width:100% ;
      font-size:20px;
@@ -403,14 +403,14 @@ export default {
    }
  
    header .wrapper .text-container h3 {
-     padding: 40px 35px 2px 40px;
-     width: 100%;
-     font-size: 20px;
- 
+     padding: 10px 35px 35px 40px;
+     width: 300px;
+     font-size: large;
+    margin:12px 0px;
      line-height: normal;
    }
  
-   f header .wrapper .text-container p {
+   header .wrapper .text-container p {
      padding: 0px 35px 35px 40px;
      width: 100%;
      font-size: small;

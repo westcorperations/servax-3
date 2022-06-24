@@ -132,7 +132,7 @@
 
     <div class="body">
         <section class="section1  ">
-            <div class="con container-fluid ">
+            <div class="con  ">
 
                 <div class="wrap ">
                     <div class="sec1 m-4  ">
@@ -720,12 +720,12 @@ section .box7 {
     }
 
     section .box6 {
-        width: 300px;
+        width: 100%;
         height: 300px;
         display:flex;
         justify-content:center;
      align-items:center;
-        background: #0E0E0E;
+        /* background: #0E0E0E; */
     }
 
     section .box6 img {
@@ -741,6 +741,7 @@ section .box7 {
     section .box5 {
         width:100%;
         height: 100px;
+        border-radius:7px;
         /* margin:10px; */
 
 
