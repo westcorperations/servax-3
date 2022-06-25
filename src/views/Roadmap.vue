@@ -1039,7 +1039,7 @@ footer {
   line-height: 21px;
   text-decoration: none;
   color: #0E0E0E !important;
-  /* padding-left: 10px;  */
+  padding-left: 5px; 
 }
 
 .footer img {

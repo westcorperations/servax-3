@@ -325,7 +325,7 @@ margin-bottom:20px;
 
     /* padding: 20px; */
     /* margin: 10px auto 0px auto; */
-    margin: -110% auto 30px auto;
+    margin: -130% auto 30px auto;
 
 border-radius: 5.89636px;
   /* width: 600px; */
@@ -340,8 +340,8 @@ border-radius: 5.89636px;
 margin-bottom:20px;
   width: 265px;
   height: 266px; 
-  
-/* border-radius: 5.89636px; */
+   object-fit:cenetr;
+  /* border-radius: 5.89636px; */
   /* border-radius: 20px; */
 
   /* padding: 20px; */

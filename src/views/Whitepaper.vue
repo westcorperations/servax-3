@@ -2,77 +2,76 @@
  <Header  heading="White Paper" subheading=" Download  Te ServerX  whitepaper pdf "  />
  
    
-    
-        <section class="container"> 
+            <section class="main-wrapper container-fluid"> 
         
-            <div class=" row">     
-                 <div class="col-lg-6 col-md-12">
+            <div class="mini-wrapper top">     
+                 <div class="">
                  <img src="../assets/pdf/servex.svg" alt="" class="img" srcset="">  
                  </div> 
-                 <div class="col-lg-6 col-md-12">
+                 <div class="">
                  <img src="../assets/pdf/whats-servex.svg" alt="" class="img" srcset="">  
                  </div> 
                  </div>
-            <div class=" row">     
-                 <div class="col-lg-6 col-md-12">
+            <div class="mini-wrapper">     
+                 <div class="">
                  <img src="../assets/pdf/intoserver.svg" alt="" class="img" srcset="">  
                  </div> 
-                 <div class="col-lg-6 col-md-12">
+                 <div class="">
                  <img  src="../assets/pdf/academy.svg" alt="" class="img" srcset="">  
                  </div> 
                  </div>
                  
-            <div class=" row">     
-                 <div class="col-lg-6 col-md-12">
+            <div class="mini-wrapper">     
+                 <div class="">
                  <img src="../assets/pdf/academy.svg" alt="" class="img" srcset="">  
                  </div> 
-                 <div class="col-lg-6 col-md-12">
+                 <div class="">
                  <img  src="../assets/pdf/social.svg"  alt="" class="img" srcset="">  
                  </div> 
                  </div>
-            <div class=" row">     
-                 <div class="col-lg-6 col-md-12">
+            <div class="mini-wrapper">     
+                 <div class="">
                  <img src="../assets/pdf/academy.svg" alt="" class="img" srcset="">  
                  </div> 
-                 <div class="col-lg-6 col-md-12">
+                 <div class="">
                  <img  src="../assets/pdf/social.svg"  alt="" class="img" srcset="">  
                  </div> 
                  </div>
-            <div class=" row">     
-                 <div class="col-lg-6 col-md-12">
+            <div class="mini-wrapper">     
+                 <div class="">
                  <img src="../assets/pdf/walet.svg" alt="" class="img" srcset="">  
                  </div> 
-                 <div class="col-lg-6 col-md-12">
+                 <div class="">
                  <img  src="../assets/pdf/market.svg"  alt="" class="img" srcset="">  
                  </div> 
                  </div>
-            <div class=" row">     
-                 <div class="col-lg-6 col-md-12">
+            <div class="mini-wrapper">     
+                 <div class="">
                  <img src="../assets/pdf/change.svg" alt="" class="img" srcset="">  
                  </div> 
-                 <div class="col-lg-6 col-md-12">
+                 <div class="">
                  <img  src="../assets/pdf/commerce.svg" alt="" class="img" srcset="">  
                  </div> 
                  </div>
-            <div class=" row">     
-                 <div class="col-lg-6 col-md-12">
+            <div class="mini-wrapper">     
+                 <div class="">
                  <img src="../assets/pdf/xverse.svg" alt="" class="img" srcset="">  
                  </div> 
-                 <div class="col-lg-6 col-md-12">
+                 <div class="">
                  <img src="../assets/pdf/box11.svg" alt="" class="img" srcset="">  
                  </div> 
                  </div>
-            <div class=" row">     
-                 <div class="col-lg-6 col-md-12">
+            <div class="mini-wrapper">     
+                 <div class="">
                  <img src="../assets/pdf/box11.svg" alt="" class="img" srcset="">  
                  </div> 
-                 <div class="col-lg-6 col-md-12">
+                 <div class="">
                  <img  src="../assets/pdf/box13.svg" alt="" class="img" srcset="">  
                  </div> 
                  </div>
-            <div class=" row">     
+            <div class="mini-wrapper">     
                 
-                 <div class="col-12 col-md-12">
+                 <div class="">
                  <img  src="../assets/pdf/box14.svg" alt="" class="img" srcset="">  
                  </div> 
                  </div>
@@ -127,17 +126,46 @@ export default {
 </script>
 
 <style scoped>
-.img{
-    width:500px;
-    height:400px;
 
+.top{
+    position:relative;
+     z-index:9;
+    margin-top:-200px ;
+}
+.main-wrapper{
+    display:flex;
+    flex-direction:column;
+    /* background:red; */
+    width:100%; 
+    margin:0;
+    padding:0;
+    
+    
+}
+.main-wrapper .mini-wrapper{
+display:flex;
+flex-direction:row;
+justify-content:space-evenly;
+width:100%;
+margin:10px ;
+}
+ 
+.img{
+  /* flex-grow: ; */
+   max-width:600px;
+    height:100%;
+width:100%;
 }
   
  @media screen and ( max-width: 800px){
     .img{
-    width:100vw;
-    height:320px;
+    max-width:250px;
+    /* height:320px; */
+width:100%;
 
+}
+.main-wrapper .mini-wrapper{ 
+    flex-direction:column;
 }
  } 
 </style>

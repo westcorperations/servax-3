@@ -18,30 +18,30 @@
 
 
 
-<footer>
+ <footer>
       <div class="  footer">
          
-        <div class=" d-none d-lg-block  "><img src="../assets/img/logo.svg" alt="" /></div>
-        <!-- <div class="col-md-12 col-lg-2 mt-col-"><h6>ServaX</h6></div> -->
+        <div class=" d-none d-lg-block  "> <router-link :to="{ name: 'Home' }"><img src="../assets/img/logo.svg" alt="" /></router-link></div>
+        <!-- <div class="col-md-12 col-lg-2  mt-col-"><h6>ServaX</h6></div> -->
         <div class=" d-none d-lg-block">
            <router-link :to="{ name: 'Home' }" class="a
                 
-              ">Team</router-link>
+              ">Home</router-link>
                 <router-link :to="{ name: 'Team' }" class="a
                 
-              ">Roadmap</router-link>
+              ">Team</router-link>
                 <router-link :to="{ name: 'Roadmap' }" class="a
                 
               ">Roadmap</router-link>
                 <router-link :to="{ name: 'Tokenomics' }" class="a 
                 
-              ">Tokenomics</router-link>
+              ">Tokenomics</router-link> 
                 <a href="mailto:customercare@servax.io" class="a">Contact</a>
         </div>
         <div class=" text-center">
          <a href="https://t.me/ServaX_Officalgroup" target="_blank"> <img src="../assets/img/telegram-black.svg" alt="px-2" class="px-3 " style="width:50px; height:50px;"></a>
           <a href="https://twitter.com/ServaX_live" target="_blank" > <img src="../assets/img/twitter-icon.svg" alt="px-2" class="px-3 w-15"></a>
-         <a href="https://" target="_blank"> <img src="../assets/img/instagram-icon.svg" alt="px-2" class="px-2 w-15"></a>
+         <!-- <a href="https://" target="_blank"> <img src="../assets/img/instagram-icon.svg" alt="px-2" class="px-2 w-15"></a> -->
         </div>
 
       </div>
@@ -152,7 +152,7 @@ footer {
   line-height: 21px;
   text-decoration: none;
   color: #0E0E0E !important;
-  /* padding-left: 10px;  */
+  padding-right: 5px; 
 }
 
 
