@@ -2,79 +2,75 @@
  <Header  heading="White Paper" subheading=" Download  Te ServerX  whitepaper pdf "  />
  
    
-            <section class="main-wrapper container"> 
+            <section class="main-wrapper w-100 "> 
         
             <div class="mini-wrapper top">     
-                 <div class="">
+                 <div class="mb-2">
                  <img src="../assets/pdf/servex.svg" alt="" class="img" srcset="">  
                  </div> 
-                 <div class="">
+                 <div class="mb-2">
                  <img src="../assets/pdf/whats-servex.svg" alt="" class="img" srcset="">  
                  </div> 
                  </div>
             <div class="mini-wrapper">     
-                 <div class="">
+                 <div class="mb-2">
                  <img src="../assets/pdf/intoserver.svg" alt="" class="img" srcset="">  
                  </div> 
-                 <div class="">
+                 <div class="mb-2">
                  <img  src="../assets/pdf/academy.svg" alt="" class="img" srcset="">  
                  </div> 
                  </div>
                  
             <div class="mini-wrapper">     
-                 <div class="">
+                 <div class="mb-2">
                  <img src="../assets/pdf/academy.svg" alt="" class="img" srcset="">  
                  </div> 
-                 <div class="">
+                 <div class="mb-2">
                  <img  src="../assets/pdf/social.svg"  alt="" class="img" srcset="">  
                  </div> 
                  </div>
             <div class="mini-wrapper">     
-                 <div class="">
+                 <div class="mb">
                  <img src="../assets/pdf/academy.svg" alt="" class="img" srcset="">  
                  </div> 
-                 <div class="">
+                 <div class="mb-2">
                  <img  src="../assets/pdf/social.svg"  alt="" class="img" srcset="">  
                  </div> 
                  </div>
-            <div class="mini-wrapper">     
-                 <div class="">
+            <div class="mini-wrapper ">     
+                 <div class="mb-2">
                  <img src="../assets/pdf/walet.svg" alt="" class="img" srcset="">  
                  </div> 
-                 <div class="">
+                 <div class="mb-2">
                  <img  src="../assets/pdf/market.svg"  alt="" class="img" srcset="">  
                  </div> 
                  </div>
-            <div class="mini-wrapper">     
-                 <div class="">
+            <div class="mini-wrapper ">     
+                 <div class="mb-2">
                  <img src="../assets/pdf/change.svg" alt="" class="img" srcset="">  
                  </div> 
-                 <div class="">
+                 <div class="mb-2">
                  <img  src="../assets/pdf/commerce.svg" alt="" class="img" srcset="">  
                  </div> 
                  </div>
-            <div class="mini-wrapper">     
-                 <div class="">
+            <div class="mini-wrapper ">     
+                 <div class="mb-2">
                  <img src="../assets/pdf/xverse.svg" alt="" class="img" srcset="">  
                  </div> 
-                 <div class="">
+                 <div class="mb-2">
                  <img src="../assets/pdf/box11.svg" alt="" class="img" srcset="">  
-                 </div> 
                  </div>
-            <div class="mini-wrapper">     
-                 <div class="">
-                 <img src="../assets/pdf/box11.svg" alt="" class="img" srcset="">  
-                 </div> 
-                 <div class="">
+                 </div>
+            <div class="mini-wrapper ">     
+                  
+                 <div class="mb-2">
                  <img  src="../assets/pdf/box13.svg" alt="" class="img" srcset="">  
-                 </div> 
                  </div>
-            <div class="mini-wrapper">     
-                
-                 <div class="">
+                 <div class="mb2">
                  <img  src="../assets/pdf/box14.svg" alt="" class="img" srcset="">  
-                 </div> 
+                 </div>  
                  </div>
+            
 
           
         
@@ -84,7 +80,7 @@
      <section class="section1 container "> 
         <div class="row justify-content-center"> 
             <div class=" row pt-5 mb-5 pb-5 mt-5 "> 
-                <a name="" id="" class="btn btn-success w-100 mx-auto align-center" href="../assets/pdf/ServaX WhitePaper.pdf" download="servax-whitePaper" role="button">Download pdf</a> 
+                <a name="" id="" class="btn btn-success w-100 mx-auto align-center" href="../assets/pdf/ServaXWhitePaper.pdf" download="servax-whitePaper" role="button">Download pdf</a> 
          </div>  
         </div>
     </section>
@@ -146,7 +142,7 @@ export default {
 display:flex;
 flex-direction:row;
 justify-content:space-evenly;
-width:100%;
+/* width:100%; */
 margin:10px ;
 }
  
@@ -159,13 +155,17 @@ width:100%;
   
  @media screen and ( max-width: 800px){
     .img{
-    max-width:250px;
+    max-width:100%;
+    margin:10px 0; 
     /* height:320px; */
 width:100%;
+/* align-items:center; */
 
 }
 .main-wrapper .mini-wrapper{ 
-    flex-direction:column;
-}
+    flex-direction:column; 
+   
+}  
+
  } 
 </style>

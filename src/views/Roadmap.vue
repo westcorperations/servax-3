@@ -30,7 +30,10 @@
           <router-link :to="{ name: 'Tokenomics' }" class="
                 
               ">Tokenomics</router-link>
-          <a href="whitepaper.html">White Paper</a>
+          <router-link :to="{ name: 'Whitepaper' }" class="
+                
+              ">Whitepaper</router-link>
+         
         </div>
       </div>
       <div class="text">

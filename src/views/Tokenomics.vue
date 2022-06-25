@@ -19,7 +19,7 @@
         <!-- Overlay content -->
         <div class="overlay-content">
           <router-link :to="{ name: 'Home' }" class="
-                
+                   
               ">Home</router-link>
           <router-link :to="{ name: 'Team' }" class="
                 
@@ -30,10 +30,12 @@
           <router-link :to="{ name: 'Tokenomics' }" class="
                 
               ">Tokenomics</router-link>
-          <a href="whitepaper.html">White Paper</a>
+          <router-link :to="{ name: 'Whitepaper' }" class="
+                
+              ">whitepaper</router-link>
         </div>
       </div>
-      <div class="text text-center">
+      <div class="text text-center pb-2">
         <h3>Tokenomics</h3>
        
       </div>
@@ -80,7 +82,10 @@
                 <router-link :to="{ name: 'Tokenomics' }" class="
                 
               ">Tokenomics</router-link>
-                <a href="whitepaper.html">White Paper</a>
+                <router-link :to="{ name: 'Whitepaper' }" class="
+                
+              ">whitepaper</router-link>
+               
               </div>
             </div>
           </div>

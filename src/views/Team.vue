@@ -16,22 +16,25 @@
 
             <div id="myNav" class="overlay" :style="{ width: width + '%' }">
                 <!-- Overlay content -->
-                <div class="overlay-content">
-                    <router-link :to="{ name: 'Home' }" class="
-                
+                <!-- Overlay content -->
+        <div class="overlay-content">
+          <router-link :to="{ name: 'Home' }" class="
+                   
               ">Home</router-link>
-                    <router-link :to="{ name: 'Team' }" class="
+          <router-link :to="{ name: 'Team' }" class="
                 
               ">Team</router-link>
-                    <router-link :to="{ name: 'Roadmap' }" class="
+          <router-link :to="{ name: 'Roadmap' }" class="
                 
               ">Roadmap</router-link>
-                    <router-link :to="{ name: 'Tokenomics' }" class="
+          <router-link :to="{ name: 'Tokenomics' }" class="
                 
               ">Tokenomics</router-link>
-                    <a href="whitepaper.html">White Paper</a>
-                </div>
-            </div>
+          <router-link :to="{ name: 'Whitepaper' }" class="
+                
+              ">whitepaper</router-link>
+        </div>
+           </div> 
             <div class="text">
                <h3>Meet the ServaX Team</h3> 
                 <p class="">But while you’re here, signup for our newsletter, so you’ll get
