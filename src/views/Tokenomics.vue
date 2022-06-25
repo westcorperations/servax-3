@@ -325,7 +325,7 @@ margin-bottom:20px;
 
     /* padding: 20px; */
     /* margin: 10px auto 0px auto; */
-    margin: -120% auto 30px auto;
+    margin: -112% auto 30px auto;
 
 border-radius: 5.89636px;
   /* width: 600px; */

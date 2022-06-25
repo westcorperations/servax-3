@@ -2,7 +2,7 @@
  <Header  heading="White Paper" subheading=" Download  Te ServerX  whitepaper pdf "  />
  
    
-            <section class="main-wrapper container-fluid"> 
+            <section class="main-wrapper container"> 
         
             <div class="mini-wrapper top">     
                  <div class="">
