@@ -217,7 +217,9 @@
                 <p>ServaX has a governance token - ServaCoin created on the Bitgert Chain.  
                     The total supply caps at 200,000,000.</p>
                      <div class="lbtn ">
-                   <button class="btn  btn-sm"><a href="" class="text-dark">View Tokenomics</a></button>
+                   <button class="btn  btn-sm"> <router-link :to="{ name: 'Tokenomics' }" class="text-dark 
+                
+              "> View Tokenomics</router-link> </button>
             </div></div>
             <div class="col-md-12 d-none d-lg-block col-lg-4">
 <img src="../assets/img/disk.svg" alt="" srcset="">
