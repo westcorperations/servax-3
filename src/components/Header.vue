@@ -209,7 +209,7 @@ export default {
  header .wrapper .text-container .text {
    display: flex;
    /* background: red;  */
-   margin-top: 3.5%;
+   margin-top: 2.5%;
    margin-left:20%;
    /* height:40px; */
    justify-content: center;
@@ -359,8 +359,11 @@ export default {
    header .wrapper .text-container {
      width:100% ;
      font-size:20px;
-      
-   }
+     margin-left:auto ;
+     margin-right:auto;
+
+   };
+
  
    header .wrapper .text-container p {
      padding: 0px 35px 35px 40px;
