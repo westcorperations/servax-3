@@ -364,7 +364,7 @@ export default {
    }
    
     header .wrapper .text-container .text {
-    margin-left:2%;
+    margin-left:5px !important;
    }
 
  
