@@ -49,7 +49,7 @@
         <!-- header text  -->
         <div class="text">
           <h3 class="h3">{{ heading }}</h3>
-          <div data-aos="fade-right">
+          <div >
             <p>
               {{ subheading }}
             </p>

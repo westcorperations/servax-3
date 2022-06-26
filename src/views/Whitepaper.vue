@@ -1,5 +1,5 @@
 <template>
- <Header  heading="White Paper" subheading=" Download  The ServerX  whitepaper pdf "  />
+ <Header  heading="White Paper" subheading=" Download and preview the ServerX  whitepaper pdf file  "  />
  
    
             <section class="main-wrapper w-100 "> 
