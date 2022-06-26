@@ -359,10 +359,13 @@ export default {
    header .wrapper .text-container {
      width:100% ;
      font-size:20px;
-     margin-left:3px ;
-     margin-right:3px;
+     
 
-   };
+   }
+   
+    header .wrapper .text-container .text {
+    margin-left:2%;
+   }
 
  
    header .wrapper .text-container p {
