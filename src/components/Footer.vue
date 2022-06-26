@@ -36,12 +36,12 @@
                 <router-link :to="{ name: 'Tokenomics' }" class="a 
                 
               ">Tokenomics</router-link> 
-                <a href="mailto:customercare@servax.oo" class="a">Contact</a>
+                <a href="mailto:support@servax.io" class="a">Contact</a>
         </div>
         <div class=" text-center">
          <a href="https://t.me/ServaX_Officalgroup" target="_blank"> <img src="../assets/img/telegram-black.svg" alt="px-2" class="px-3 " style="width:50px; height:50px;"></a>
           <a href="https://twitter.com/ServaX_live" target="_blank" > <img src="../assets/img/twitter-icon.svg" alt="px-2" class="px-3 " style="width:50px; height:50px;"></a>
-          <a href="mailto:customercare@servax.oo" target="_blank"> <img src="../assets/img/Email.svg" alt="px-2" class="px-3 " style="width:50px; height:50px;"></a> 
+          <a href="mailto:mailto:support@servax.io" target="_blank"> <img src="../assets/img/Email.svg" alt="px-2" class="px-3 " style="width:50px; height:50px;"></a> 
         </div>
 
       </div>
