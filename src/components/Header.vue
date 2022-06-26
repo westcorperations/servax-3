@@ -209,7 +209,7 @@ export default {
  header .wrapper .text-container .text {
    display: flex;
    /* background: red;  */
-   margin-top: 9.5%;
+   margin-top: 3.5%;
    margin-left:20%;
    /* height:40px; */
    justify-content: center;
