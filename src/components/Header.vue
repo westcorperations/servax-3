@@ -359,8 +359,8 @@ export default {
    header .wrapper .text-container {
      width:100% ;
      font-size:20px;
-     margin-left:auto ;
-     margin-right:auto;
+     margin-left:3px ;
+     margin-right:3px;
 
    };
 
