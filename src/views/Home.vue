@@ -34,10 +34,8 @@
              <div class="col-lg-10 col-md-12  row rec1 ">
                  <div class="col-lg-6 col-md-12  ">
                      <h3 class="">ServaX <span style="color:white ;"> Academy </span></h3>
-                     <p>This is the learning platform of ServaX. This free learning platform allows our users to learn
-                         and develop themselves in any area of their financial lives - with certificates on completion.
-                         Expert users
-                         in various fields will contribute to this platform and earn ServaCoin tokens as rewards.</p>
+                     <p>This is the learning platform of ServaX. This free learning platform allows our users to learn and develop themselves in any area of their financial lives - with certificates on completion. 
+                        Expert users in various fields will contribute to this platform and earn Xtokens as rewards.</p>
                  </div>
                  <div class="col-lg-6 col-md-12   g-0 d-lg-block  ">
                      <img src="../assets/img/net.svg" alt="" srcset="">
@@ -59,9 +57,9 @@
                  <div class="col-lg-6 col-md-6  ">
                      <h3 class="">ServaX <span style="color:white ;">Social </span></h3>
                      <p>This is the interacting and communication arm of ServaX.
-                         It is an end-to-end micro blogging site, the source code which will be made public upon
+                         It is an end-to-end encrypted micro-blogging site, the source code which will be made public upon
                          completion. Our features include video and audio conferencing.
-                         Users can add, follow and react to other users..</p>
+                         Users can add, follow and react to other users.</p>
                  </div> 
                  <div class="col-lg-6 col-md-12  d-lg-none">
                     <img src="../assets/img/tumbler.svg" alt="" srcset="">
@@ -106,9 +104,7 @@
 
                  <div class="col-lg-6 col-md-6  ">
                      <h3 class="">ServaX <span style="color:white ;">Market </span></h3>
-                     <p>Create, sell and store your NFTs on ServaX. People can find NFTs
-                         for each user since each user with an NFT has a direct button on his collection.
-                         Payment system powered by the ServaX ecosytem, and is fast and secure.</p>
+                     <p>Create, sell and store your NFTs on ServaX Marketplac; its Payment system is powered by the servaX ecosystem and is fast and secure. .</p>
                  </div> 
                  <div class="col-lg-6 col-md-12  d-lg-none">
                      <img src="../assets/img/dounuts.svg" alt="" srcset="">
@@ -187,9 +183,9 @@
                 <img src="../assets/img/ntfbox.svg" alt="" srcset="">
                             </div>
             <div class="col-md-12  text col-lg-4">
-                <h6>ServaXNFT Gateway</h6> 
-                <p>ServaXNFTs - aside from staking utility - allows holders gain access to all paid services on ServaX at no cost. The NFTs come in Bronze, Silver, 
-                     Gold and Platinum tiers, with a lot more fun utilities premiering on our roadmap!</p>
+                <h6>Serva X NFTs</h6> 
+                <p>ServaX NFTs - aside from staking utility - allows holders gain access to all paid services on ServaX at no cost. The NFTs come in tiers, 
+                    , with a lot more fun utilities premiering on our roadmap!</p>
             </div>
             <div class="col-md-12 d-none d-lg-block  col-lg-4">
 <img src="../assets/img/ntfbox.svg" alt="" srcset="">
@@ -201,8 +197,9 @@
                             </div>
             <div class="col-md-12 order-lg-2  text col-lg-4">
                 <h6>Membership Rewards</h6> 
-                <p>ServaX is a network of high value people, under an ecosystem that allows them to communicate and transact. Our entire model is built around community and because of this, we incentivised referrals using ServaCoin, so we can grow our community and the value we offer to members. 
-                  As our community grows, so does ServaCoin, and so do the value of referral rewards.</p>
+                <p>ServaX is a network of high value people, under an ecosystem that allows them to communicate and transact.
+                     Our entire model is built around community and because of this, we incentivised referrals using Xtoken-$SVX, so we can grow our community and the value we offer to members. 
+                 </p>
             </div>
             <div class="col-md-12 order-lg-1 d-none d-lg-block col-lg-4">
 <img src="../assets/img/belt.svg" alt="" srcset="">
@@ -213,9 +210,9 @@
                 <img src="../assets/img/disk.svg" alt="" srcset="">
                             </div>
             <div class="col-md-12  text col-lg-4">
-                <h6>ServaCoin</h6> 
-                <p>ServaX has a governance token - ServaCoin created on the Bitgert Chain.  
-                    The total supply caps at 200,000,000.</p>
+                <h6>Serva X Token</h6> 
+                <p>ServaX has a governance token - Xtoken $SVX created on the Binance Smart Chain.  
+                    The total supply caps at 10,000,000 and it powers the whole Ecosystem.</p>
                      <div class="lbtn ">
                    <button class="btn  btn-sm"> <router-link :to="{ name: 'Tokenomics' }" class="text-dark 
                 
