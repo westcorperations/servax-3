@@ -36,7 +36,7 @@
          
         </div>
       </div>
-      <div class="text">
+      <div class="text" data-aos="fade-right">
         <h3>ServaX Roadmap</h3>
        
       </div>
@@ -95,10 +95,10 @@
           </div>
           <!-- header text  -->
           <div class="text">
-            <h3>ServaX Roadmap</h3>
+            <h3>ServaX Roadmap</h3> 
+            <div data-aos="fade-right">
             <p class=" d-none d-lg-block">But while you’re here, signup for our newsletter, so you’ll get notified when
               our roadmap is made public.</p>
-            <div>
 
             </div>
           </div>
@@ -146,7 +146,7 @@
   </header>
 
   <div class="body">
-    <div class="roadmap-topbox ">
+    <div class="roadmap-topbox " data-aos="zoom-in">
       <div class=" wrapper">
         <h3>Phase 1</h3>
         <ul>
@@ -166,7 +166,7 @@
 
       </div>
     </div>
-    <div class="roadmap-box">
+    <div class="roadmap-box" data-aos="zoom-in">
       <div class=" wrapper">
         <h3>Phase 2</h3>
         <ul>
@@ -181,7 +181,7 @@
         </ul>
       </div>
     </div>
-    <div class="roadmap-box-sm">
+    <div class="roadmap-box-sm" data-aos="zoom-in">
       <div class=" wrapper">
         <h3>Phase 3</h3>
         <ul>
@@ -190,7 +190,7 @@
         </ul>
       </div>
     </div>
-    <div class="roadmap-box-sm">
+    <div class="roadmap-box-sm" data-aos="zoom-in">
       <div class=" wrapper">
         <h3>Phase4</h3>
         <ul>
@@ -655,10 +655,11 @@ header .wrapper .text-container {
   backdrop-filter: blur(15px);
 }
 
-header  .text {
+header .wrapper .text-container .text {
   display: flex;
   /* background: red;  */
-  margin: 10px;
+  margin-top: 9.5%;
+   margin-left:20%;
   /* height:40px; */
   justify-content: center;
 
@@ -668,15 +669,15 @@ header  .text {
 header .wrapper .text-container h3 {
   /* width: fit-content; */
   /* text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5); */
-  margin: 12px auto;
+  margin: 7px 6.5%;
 
-  width: 650px;
+  width: 400px;
   /* height: fit-content; */
   font-family: "Monument Extended";
   font-style: normal;
   font-weight: 800;
   font-size: 32.6896px;
-  line-height: 3.5rem;
+  line-height: 2.5rem;
 
   color: #fcfcfc;
 }

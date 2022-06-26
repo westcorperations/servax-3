@@ -162,7 +162,7 @@
 
  
   <!-- rectangle type 1 -->
-         <div class=" row ">
+         <div class=" row " data-aos="zoom-left">
 
              <div class="col-lg-10 col-md-12 row rec1 ">
                  <div class="col-lg-6 col-md-12  ">

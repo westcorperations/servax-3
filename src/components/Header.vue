@@ -49,7 +49,7 @@
         <!-- header text  -->
         <div class="text">
           <h3 class="h3">{{ heading }}</h3>
-          <div>
+          <div data-aos="fade-right">
             <p>
               {{ subheading }}
             </p>
@@ -209,7 +209,8 @@ export default {
  header .wrapper .text-container .text {
    display: flex;
    /* background: red;  */
-   margin: 10px;
+   margin-top: 9.5%;
+   margin-left:20%;
    /* height:40px; */
    justify-content: center;
  
@@ -219,7 +220,7 @@ export default {
  header .wrapper .text-container h3 {
    /* width: fit-content; */
    /* text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5); */
-   margin: 12px auto;
+   margin: 7px 6.5%;
  
    /* width: 650px; */
    /* height: fit-content; */
@@ -227,7 +228,8 @@ export default {
    font-style: normal;
    font-weight: 800;
    font-size: 32.6896px;
-   line-height: 3.5rem;
+   line-height: 2.5rem;
+ width:400px;
  
    color: #fcfcfc;
  }

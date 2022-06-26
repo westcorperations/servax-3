@@ -1,5 +1,5 @@
 <template>
- <Header  heading="White Paper" subheading=" Download  Te ServerX  whitepaper pdf "  />
+ <Header  heading="White Paper" subheading=" Download  The ServerX  whitepaper pdf "  />
  
    
             <section class="main-wrapper w-100 "> 
@@ -80,7 +80,8 @@
      <section class="section1 container "> 
         <div class="row justify-content-center"> 
             <div class=" row pt-5 mb-5 pb-5 mt-5 "> 
-                <a name="" id="" class="btn btn-success w-100 mx-auto align-center" href="../assets/pdf/ServaXWhitePaper.pdf" download="servax-whitePaper" role="button">Download pdf</a> 
+                 <a :href="`${publicPath}ServaXWhitePaper.pdf`" class="btn btn-success w-100 mx-auto align-center"
+                  download="servax witepaper" role="button">Download PDF</a>
          </div>  
         </div>
     </section>
@@ -118,6 +119,15 @@ export default {
         Footer,
         Upbox,
     },
+
+data () {
+  return {
+  publicPath: process.env.BASE_URL
+  }
+}
+
+
+    
 }
 </script>
 
