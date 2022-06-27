@@ -39,9 +39,13 @@
       </div>
     </div>
     <div class="d-none d-lg-block">
-      <div class="d-none d-lg-block p-4">
-        <img src="../assets/img/logo.svg" alt="" />
-      </div>
+      <div class="container listtopnav green borderXwidth p-3">
+  <a> <router-link :to="{ name: 'Team' }" class="">Team</router-link></a>
+  <a><router-link :to="{ name: 'Roadmap' }" class="">Roadmap</router-link></a>
+  <a><router-link :to="{ name: 'Home' }" class=""><img src="../assets/img/desktoplogo.svg" alt="logo" class="" /></router-link></a>
+  <a><router-link :to="{ name: 'Tokenomics' }" class="">Tokenomics</router-link></a>
+  <a><router-link :to="{ name: 'Whitepaper' }" class="">Whitepaper</router-link></a>
+</div>
       <div class="wrapper">
         <div class="text-container">
           <!-- navigation bar setion -->
@@ -93,34 +97,7 @@
           </div>
         </div>
         <div class="list-container d-none d-lg-block">
-          <div class="list d-none d-lg-block">
-            <ol>
-              <li>
-                <span class="mx-3">01</span>
-                <router-link :to="{ name: 'Home' }" class="">Home</router-link>
-              </li>
-              <li>
-                <span class="mx-3">02</span>
-                <router-link :to="{ name: 'Team' }" class="">Team</router-link>
-              </li>
-              <li>
-                <span class="mx-3">03</span>
-                <router-link :to="{ name: 'Roadmap' }" class=""
-                  >Roadmap</router-link
-                >
-              </li>
-              <li>
-                <span class="mx-3">04</span>
-                <router-link :to="{ name: 'Tokenomics' }" class=""
-                  >Tokenomics</router-link
-                >
-              </li>
-              <li>
-                <span class="mx-3">05</span
-                ><a href="whitepaper.html"> white paper</a>
-              </li>
-            </ol>
-          </div>
+         
         </div>
       </div>
     </div>

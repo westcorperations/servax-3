@@ -1,6 +1,16 @@
 <template>
   <header>
-    <div class="d-none d-lg-block p-3"><img src="../assets/img/logo.svg" alt="" /></div>
+     <!-- top nav liks for desktop -->
+    <div class="d-none d-lg-block p-3">
+       <div class="container listtopnav green borderXwidth">
+  <a> <router-link :to="{ name: 'Team' }" class="">Team</router-link></a>
+  <a><router-link :to="{ name: 'Roadmap' }" class="">Roadmap</router-link></a>
+  <a><router-link :to="{ name: 'Home' }" class=""><img src="../assets/img/desktoplogo.svg" alt="logo" class="" /></router-link></a>
+  <a><router-link :to="{ name: 'Tokenomics' }" class="">Tokenomics</router-link></a>
+  <a><router-link :to="{ name: 'Whitepaper' }" class="">Whitepaper</router-link></a>
+</div>
+
+    </div>
     <div class="wrapper">
       <div class="text-container">
         <!-- navigation bar setion -->
@@ -57,7 +67,7 @@
         </div>
       </div>
       <div class="list-container d-none d-lg-block">
-        <div class="list d-none d-lg-block">
+        <div class="list d-none ">
           <ol>
             <li>
               <span class="mx-3">01</span>
@@ -148,6 +158,55 @@ export default {
 };
 </script>
  <style scoped>
+.listtopnav{
+
+  font-family:DM Sans;
+    margin: 0 auto;
+
+}
+.listtopnav a{
+   color: #FCFCFC;
+    text-decoration: none;
+    font: 20px DM Sans;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer; 
+}
+div.borderXwidth a:before, div.borderXwidth a:after
+{
+    position: absolute;
+    opacity: 0;
+    width: 0%;
+    height: 2px;
+    content: '';
+    background: #FFF;
+    transition: all 0.3s;
+}
+
+div.borderXwidth a:before
+{
+    left: 0px;
+    top: 0px;
+}
+
+div.borderXwidth a:after
+{
+    right: 0px;
+    bottom: 0px;
+}
+
+div.borderXwidth a:hover:before, div.borderXwidth a:hover:after
+{
+    opacity: 1;
+    width: 100%;
+}
+
+
+
+
+
  header {
    max-width: 100vw !important;
    height: 100vh;
@@ -220,7 +279,7 @@ export default {
  header .wrapper .text-container h3 {
    /* width: fit-content; */
    /* text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5); */
-   margin: 7px 6.5%;
+   margin: 7px 10%;
  
    /* width: 650px; */
    /* height: fit-content; */
@@ -306,7 +365,6 @@ export default {
  /* Position the content inside the overlay */
  .overlay-content {
    position: relative;
-   top: 25%;
    /* 25% from the top */
    width: 100%;
    /* 100% width */
@@ -331,7 +389,7 @@ export default {
  /* When you mouse over the navigation links, change their color */
  .overlay a:hover,
  .overlay a:focus {
-   color: #0e0e0e;
+   color: #000854;
  }
  
  /* Position the close button (top right corner) */
