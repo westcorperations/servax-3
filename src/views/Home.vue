@@ -214,9 +214,7 @@
                 <p>ServaX has a governance token - Xtoken $SVX created on the Binance Smart Chain.  
                     The total supply caps at 10,000,000 and it powers the whole Ecosystem.</p>
                      <div class="lbtn ">
-                   <button class="btn  btn-sm"> <router-link :to="{ name: 'Tokenomics' }" class="text-dark 
-                
-              "> View Tokenomics</router-link> </button>
+                   <button class="btn  btn-sm"><a href="https://bscscan.com/token/0xA6CC8EFB77485C3804768850dBd52f658D1A71BD" target="_blank"   class="text-dark">View on BSC Scan </a></button>
             </div></div>
             <div class="col-md-12 d-none d-lg-block col-lg-4">
 <img src="../assets/img/disk.svg" alt="" srcset="">

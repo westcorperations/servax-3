@@ -171,16 +171,26 @@
         </ul>
       </div>
     </div>
-    <section class="newsletter">
-      <div class="text-center content p-5">
-        <h4>Signup for Our Newsletter</h4>
-        <p>Get updated about ServaX and the next wave in social media evolution!</p>
+    <section class="newsletter">  
+        <div class="text-center content p-5" id="mc_embed_signup" >
+<form 
+action="https://servax.us11.list-manage.com/subscribe/post?u=a569ad533741592bef61397e5&amp;id=f3bfcc5e6b" 
+method="post"
+ id="mc-embedded-subscribe-form" 
+ name="mc-embedded-subscribe-form" 
+ class="validate"
+ target="_blank" novalidate>
 
-        <input type="email" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-        <button type="submit" class="btn btn-success mt-3">Subscribe</button>
+<h4>Signup for Our Newsletter</h4> 
+<p>Get updated about ServaX and the next wave in social media evolution!</p>
+ 
 
-
-      </div>
+   <input type="email"
+     class="form-control" name="EMAIL"  id="mce-EMAIL" aria-describedby="helpId" placeholder=""  required> 
+<button type="submit" class="btn btn-success mt-3">Subscribe</button>
+      
+</form>
+</div>
     </section>
 
 
