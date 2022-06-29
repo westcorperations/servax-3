@@ -102,7 +102,7 @@
             <img src="../assets/img/planet.svg" alt="" class="d-none" />
           </div>
           <!-- header text  -->
-          <div class="text">
+          <div class="text p-3">
             <h3>Tokenomics</h3>
             <p class=" d-none ">But while you’re here, signup for our newsletter, so you’ll get notified when
               our roadmap is made public.</p>
@@ -241,7 +241,7 @@ export default {
   height: fit-content;
   /* border-radius: 20px; */
 
-  margin: -300px auto 50px auto;
+  margin: -200px auto 50px auto;
 
 
 
